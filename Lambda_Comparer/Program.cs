@@ -17,13 +17,15 @@ namespace Lambda_Comparer
             Animals = new List<Animal>
             {
                 new Dog("Rex", 1, "Poulet"),
+                new Cat("Mistigrette", 1),
                 new Dog("Toby", 2, "Chat"),
                 new Dog("Pilou", 3, "Humain"),
                 new Cat("Mistigrie", 1),
                 new Cat("Tigrou", 2),
-                new Cat("Garfield", 3)
+                new Cat("Garfield", 3),
+                new Dog("Tigrou", 33, "Humain"),
             };
-
+            
             Console.WriteLine("GetAllDogs :");
             foreach (var dog in GetAllDogs())
                 Console.WriteLine(dog);
@@ -57,28 +59,27 @@ namespace Lambda_Comparer
             Console.WriteLine(GetRandom());
             Console.WriteLine(GetRandom());
 
+            Animals.Sort(new AnimalComparer());
+            foreach (var ani in Animals)
+            {
+                Console.WriteLine(ani);
+            }
+
             Console.ReadLine();
         }
         static List<Dog> GetAllDogs()
         {
-            var results = from anim in Animals
-                          where anim.GetType() == typeof(Dog)
-                          select anim as Dog;
-            return results.ToList();
+            return Animals.Where(anim => anim.GetType() == typeof (Dog))
+                          .Select(anim => anim as Dog).ToList();
         }
         static List<Cat> GetAllCats()
         {
-            var results = from anim in Animals
-                          where anim.GetType() == typeof(Cat)
-                          select anim as Cat;
-            return results.ToList();
+            return Animals.Where(a => a.GetType() == typeof (Cat))
+                          .Select(a => a as Cat).ToList();
         }
         static List<Animal> GetEvenAgedOnes()
         {
-            var results = from anim in Animals
-                          where anim.Age % 2 == 0
-                          select anim;
-            return results.ToList();
+            return Animals.Where(anim => anim.Age % 2 == 0).ToList();
         }
         static Animal GetRandom()
         {
@@ -86,18 +87,12 @@ namespace Lambda_Comparer
         }
         static List<Animal> Search(string query)
         {
-            var results = from anim in Animals
-                          where anim.Name.Contains(query)
-                          select anim;
-            return results.ToList();
+            return Animals.Where(anim => anim.Name.Contains(query)).ToList();
         }
         static List<Dog> GetPuppies()
         {
-            var results = from anim in Animals
-                          where anim.GetType() == typeof(Dog)
-                                && anim.Age <= 2
-                          select anim as Dog;
-            return results.ToList();
+            return Animals.Where(anim => anim.GetType() == typeof(Dog) && anim.Age <= 2)
+                          .Select(anim => anim as Dog).ToList();
         }
     }
 }

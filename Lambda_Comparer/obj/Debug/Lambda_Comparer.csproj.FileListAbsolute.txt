@@ -1,0 +1,6 @@
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Lambda_Comparer\bin\Debug\Lambda_Comparer.exe.config
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Lambda_Comparer\bin\Debug\Lambda_Comparer.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Lambda_Comparer\bin\Debug\Lambda_Comparer.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Lambda_Comparer\obj\Debug\Lambda_Comparer.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Lambda_Comparer\obj\Debug\Lambda_Comparer.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Lambda_Comparer\obj\Debug\Lambda_Comparer.csprojResolveAssemblyReference.cache
