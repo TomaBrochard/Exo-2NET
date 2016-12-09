@@ -1,0 +1,6 @@
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\02 - Exo Movie\02 - Exo Movie\bin\Debug\02 - Exo Movie.exe.config
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\02 - Exo Movie\02 - Exo Movie\bin\Debug\02 - Exo Movie.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\02 - Exo Movie\02 - Exo Movie\bin\Debug\02 - Exo Movie.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\02 - Exo Movie\02 - Exo Movie\obj\Debug\02 - Exo Movie.csprojResolveAssemblyReference.cache
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\02 - Exo Movie\02 - Exo Movie\obj\Debug\02 - Exo Movie.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\02 - Exo Movie\02 - Exo Movie\obj\Debug\02 - Exo Movie.pdb

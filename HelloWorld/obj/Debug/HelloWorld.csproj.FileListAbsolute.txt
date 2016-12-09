@@ -1,0 +1,9 @@
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\0 - Intro\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\0 - Intro\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\0 - Intro\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\0 - Intro\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\0 - Intro\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\0 - Intro\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo Cours\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo Cours\HelloWorld\obj\Debug\HelloWorld.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo Cours\HelloWorld\obj\Debug\HelloWorld.pdb
