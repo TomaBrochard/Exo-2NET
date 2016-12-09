@@ -4,3 +4,9 @@ D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Found
 D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo Cours\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache
 D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo Cours\LINQ\obj\Debug\LINQ.exe
 D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo Cours\LINQ\obj\Debug\LINQ.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\LINQ\bin\Debug\LINQ.exe.config
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\LINQ\obj\Debug\LINQ.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\LINQ\obj\Debug\LINQ.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\LINQ\bin\Debug\LINQ.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\LINQ\bin\Debug\LINQ.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache

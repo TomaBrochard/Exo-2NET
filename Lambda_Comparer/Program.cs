@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LINQ
+namespace Lambda_Comparer
 {
     class Program
     {
@@ -58,14 +58,12 @@ namespace LINQ
             Console.WriteLine(GetRandom());
 
             Console.ReadLine();
-
         }
-
         static List<Dog> GetAllDogs()
         {
             var results = from anim in Animals
-                            where anim.GetType() == typeof(Dog)
-                            select anim as Dog;
+                          where anim.GetType() == typeof(Dog)
+                          select anim as Dog;
             return results.ToList();
         }
         static List<Cat> GetAllCats()
@@ -89,8 +87,8 @@ namespace LINQ
         static List<Animal> Search(string query)
         {
             var results = from anim in Animals
-                where anim.Name.Contains(query)
-                select anim;
+                          where anim.Name.Contains(query)
+                          select anim;
             return results.ToList();
         }
         static List<Dog> GetPuppies()
@@ -101,6 +99,5 @@ namespace LINQ
                           select anim as Dog;
             return results.ToList();
         }
-
     }
 }
