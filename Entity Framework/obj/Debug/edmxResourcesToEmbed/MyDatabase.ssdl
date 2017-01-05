@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDatabase.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MyDatabaseStoreContainer">
+    <EntitySet Name="Person" EntityType="MyDatabase.Store.Person" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Address" EntityType="MyDatabase.Store.Address" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="PersonAddress" Association="MyDatabase.Store.PersonAddress">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Address" EntitySet="Address" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RegistrationDate" Type="datetime" Nullable="false" />
+    <Property Name="Address_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="Street" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ZipCode" Type="int" Nullable="false" />
+    <Property Name="City" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="PersonAddress">
+    <End Role="Person" Type="MyDatabase.Store.Person" Multiplicity="*" />
+    <End Role="Address" Type="MyDatabase.Store.Address" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Address">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Person">
+        <PropertyRef Name="Address_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MyDatabase" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="MyDatabaseContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Person" EntityType="MyDatabase.Person" />
+    <EntitySet Name="Address" EntityType="MyDatabase.Address" />
+    <AssociationSet Name="PersonAddress" Association="MyDatabase.PersonAddress">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Address" EntitySet="Address" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" />
+    <Property Name="LastName" Type="String" Nullable="false" />
+    <Property Name="RegistrationDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Address" Relationship="MyDatabase.PersonAddress" FromRole="Person" ToRole="Address" />
+  </EntityType>
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Number" Type="Int32" Nullable="false" />
+    <Property Name="Street" Type="String" Nullable="false" />
+    <Property Name="ZipCode" Type="Int32" Nullable="false" />
+    <Property Name="City" Type="String" Nullable="false" />
+    <NavigationProperty Name="Person" Relationship="MyDatabase.PersonAddress" FromRole="Address" ToRole="Person" />
+  </EntityType>
+  <Association Name="PersonAddress">
+    <End Type="MyDatabase.Person" Role="Person" Multiplicity="1" />
+    <End Type="MyDatabase.Address" Role="Address" Multiplicity="1" />
+  </Association>
+</Schema>

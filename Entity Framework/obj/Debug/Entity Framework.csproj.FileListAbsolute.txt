@@ -1,0 +1,11 @@
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\bin\Debug\Entity Framework.exe.config
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\bin\Debug\Entity Framework.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\bin\Debug\Entity Framework.pdb
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\bin\Debug\EntityFramework.dll
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\bin\Debug\EntityFramework.xml
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\bin\Debug\fr\EntityFramework.resources.dll
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\obj\Debug\Entity Framework.csprojResolveAssemblyReference.cache
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\obj\Debug\Entity Framework.exe
+D:\Documents\Cours\Supinfo\0 - SCT\A.Sc.2 2016 -2017\2NET - Microsoft .NET Foundations and Entreprise Application\2 - Labs\Exo-2NET\Entity Framework\obj\Debug\Entity Framework.pdb
